@@ -1,3 +1,8 @@
+## Prakshalana is a python script that works on any directory 
+## and organizes the directory files into different folders
+## based on the extensions.
+## currently it only works on smaller types like videos,Images,pdfs,etc
+## This can be extended based on the use case.
 import shutil
 from pathlib import Path
 import sys
@@ -31,16 +36,6 @@ for folder in folders:
     folder_path = os.path.join(cwd,folder)
     Path(folder_path).mkdir(exist_ok=True)
     paths[folder] = folder_path
-
-### 
-# zipfolder = os.path.join(cwd,'ZipFolder')
-# screenshots = os.path.join(cwd,'Screenshots')
-# if not os.path.exists(zipfolder):
-#     os.mkdir(zipfolder)
-# # The above if can also be done using Path
-# Path(zipfolder).mkdir(exist_ok=True)
-# Path(screenshots).mkdir(exist_ok=True)
-###
 
 
 ### sending files to folders based on extensions
