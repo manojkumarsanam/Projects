@@ -12,7 +12,7 @@ cwd = os.getcwd()
 ### Extensions setup
 ZIPEXT = ['.rar','.zip','.7z']
 Images = ['.png','.jpg','.jpeg','.webp','.gif']
-codeLanguageExt = ['.py','.java','.exe','.html','.css','.js','.jsx']
+CodeLanguageExt = ['.py','.java','.exe','.html','.css','.js','.jsx']
 VideoExt = ['.mkv','.mp4']
 DocExt = ['.docx','.doc','.txt']
 ExcelExt = ['.xlsx','.csv','.xls']
@@ -26,7 +26,7 @@ extension_dict = {
     'Pdfs':PdfExt,
     'DOCX':DocExt,
     'Videos': VideoExt,
-    'Codes': codeLanguageExt,
+    'Codes': CodeLanguageExt,
     'Excel files': ExcelExt
 }
 
