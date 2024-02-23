@@ -20,6 +20,8 @@ export default function MyTextField(props) {
                     value={value}
                     variant="standard" 
                     placeholder={placeholder}
+                    error = {!!error}
+                    helperText = {error?.message}
                 />  
             )
             }
