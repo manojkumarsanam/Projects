@@ -1,7 +1,7 @@
 
 # My Personal Projects
 
-I am documenting the personal projects that I have been doing from the past 2 weeks. I started to learn React Js with backend Django which is new and I want to also improve my Python skills. So these projects are for that purpose.
+I am documenting the personal projects that I have been doing. I started to learn React Js with backend Django which is new and I want to also improve my Python skills. So these projects are for that purpose.
 
 ## Projects Completed until now :
 
